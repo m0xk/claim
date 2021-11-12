@@ -6,7 +6,7 @@ yarn start
 
 The accounts.ts file can be modified to include your sol address
 
-the data.rs file can modified to inlcude your sol address
+the data.rs file can modified to inlcude your sol address (This is the set of addresses stored on chain that eligible to claim) 
 
 In tests folder spec_0 and spec_3 can be run
 
