@@ -8,6 +8,8 @@ The accounts.ts file can be modified to include your sol address
 
 the data.rs file can modified to inlcude your sol address (This is the set of addresses stored on chain that eligible to claim) 
 
+To deploy the program to devnet you will need to update the Anchor.toml file 
+
 In tests folder spec_0 and spec_3 can be run
 
 spec_0 creates the program authority account
