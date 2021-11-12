@@ -4,6 +4,19 @@ yarn install
 
 yarn start
 
+anchor build
+
+anchor deploy --provider.cluster devnet
+
+ts-mocha airdrop_0.spec.ts --timeout 10000
+
+Once this is run you will need to get the authority account address, authority token account address and token mint address
+
+and insert this into  airdrop_3.spec.ts
+
+ts-mocha airdrop_3.spec.ts --timeout 10000
+
+
 The accounts.ts file can be modified to include your sol address
 
 the data.rs file can modified to inlcude your sol address (This is the set of addresses stored on chain that eligible to claim) 
